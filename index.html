@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasa's Personal Site</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <button onclick="viewLogInTab()" style="width:auto;" class="button">Login</button>
+
+  <div id="id01" class="s">
+
+    <form class=" modal-content animate" action="/index.html" method="get">
+      <div class="imgcontainer">
+        <span onclick="closeLogInTab()" class="close" title="Close Modal">&times;</span>
+        <img src="img/avatar.jfif" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="closeLogInTab()" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" class="left" onclick="openNav()">&#9776; open</span>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#About">About</a>
+    <a href="#skills">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="top-container">
+    <div class="title-text">
+      <h1>I'm Mostafa.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
+  </div>
+
+  <div id="About" class="middle-container">
+    <div class="profile">
+      <img src="img/f7ce204c-82ca-41e8-9748-89c725951f26.jfif" alt="angela-profile-img" width="200" style="border-radius: 50px;">
+      <h2>Hello...!</h2>
+      <p class="intro">I am a full stack developer and Head of web development at <em>GDSC AASTMT</em>
+        Aswan and I ❤️ Milk Check and coding </p>
+    </div>
+    <hr>
+    <div id="skills" class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="img/f2b192b0f604a0f87a4c750bc28cd98e.jpg" alt="code-img">
+
+        <h3>Design & Development</h3>
+        <p>I started learning programming when I was 16 years old, wanting to develop myself, to gain more experience in the design and development of phone and web applications.</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="fire-img" src="img/c4677a0f4b5ac20225f5a6ad3db0cf3d.jpg" alt="fire-img">
+        <h3>My Food </h3>
+        <p>I like spicy food a lot, I like spicy appetizers a lot, but I like spicy.</p>
+      </div>
+    </div>
+    <hr>
+    <div id="contact" class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love hot wings as much as I do.</h3>
+      <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are! We can code
+        while we eat hot wings!</p>
+      <a class="btn" href="mailto:ilove@hotwings.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/mostafa-emad-97137026a/">LinkedIn</a>
+    <a class="footer-link" target="_blank" href="https://www.facebook.com/Mo0stafaE">FaceBook</a>
+    <p class="copyright">© 2023 Mostafa Emad @ AAST.</p>
+  </div>
+  <script src="main.js"></script>
+  <script src="main2.js"></script>
+</body>
+
+</html>
+</body>
